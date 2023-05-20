@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CourseLoader
+comment0.text=\r\n\ CourseLoader\ takes\ info\ on\ a\ course\ from\ a\ single\ String\ line,\ and\r\n\ parses\ it\ to\ create\ a\ Course\ object.\r\n\r\n\ @author\ CG\r\n\ @version\ 5.3.2023\r\n
+comment1.params=
+comment1.target=CourseLoader()
+comment1.text=\r\n\ Empty\ constructor\ for\ testing.\r\n
+comment2.params=file
+comment2.target=CourseLoader(java.lang.String)
+comment2.text=\r\n\ Constructor\ calls\ the\ load(file)\ method\ in\ abstract\ parent\ class.\r\n\ \r\n\ @param\ file\:\ the\ path\ to\ the\ file.\r\n
+comment3.params=data
+comment3.target=void\ parseAndLoadLine(java.lang.String)
+comment3.text=\r\n\ Parse\ a\ single\ line\ of\ CSV\ in\ the\ form\:\r\n\ dept,\ courseNum,\ section,\ name,\ credits,\ maxEnrol,\ days,\ startTime,\ EndTime,\ Duration,\ String\ time,\ room,\ professor\r\n\ CMPU,145,51,Foundations/Computer\ Science,1,24,TRF,720,795,75,1200PM-0115PM,SP\ 309,Gomerschdat\ Anna\r\n\ \r\n\ Method\ should\ create\ a\ new\ Course\ Object\ and\ add\ it\ to\ \r\n\ the\ students\ instance\ variable.\r\n\ \r\n\ @param\ data\:\ a\ single\ line\ from\ the\ csv\ file.\r\n
+comment4.params=
+comment4.target=java.util.List\ getCourses()
+comment4.text=\r\n\ Easy\ getter\ method\ to\ return\ the\ completed\ student\ roster.\r\n\ @return\ students\:\ the\ roster\ in\ the\ form\ of\ a\ List<Course>\r\n
+numComments=5

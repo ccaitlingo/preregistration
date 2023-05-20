@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RequestLoader
+comment0.text=\r\n\ RequestLoader\ creates\ a\ hashMap\ of\ Students\ and\ Courses.\r\n\ It\ has\ a\ method\ that\ takes\ a\ String\ line\ with\ a\ student\r\n\ and\ several\ courses\ the\ wish\ to\ register\ for,\ creates\ the\ Student\ \r\n\ and\ courses,\ and\ adds\ the\ courses\ to\ a\ Student's\ list\ of\ requests.\r\n
+comment1.params=
+comment1.target=RequestLoader()
+comment1.text=\r\n\ Empty\ constructor\ for\ testing.\r\n
+comment2.params=file\ students\ courses
+comment2.target=RequestLoader(java.lang.String,\ java.util.List,\ java.util.List)
+comment2.text=\r\n\ Constructor\ creates\ hashMaps\ for\ students\ and\ courses.\ \ \r\n\ mapStudents\:\ idNum\ is\ the\ key.\r\n\ mapCourses\:\ courseKey\ (string)\ is\ the\ key,\ \r\n\ \r\n\ calls\ the\ load(file)\ method\ in\ abstract\ parent\ class.\r\n\ \r\n\ @param\ file\:\ the\ path\ to\ the\ file.\r\n\ @param\ students\:\ List\ of\ students\ successfully\ loaded\ from\ file\r\n\ @param\ courses\:\ \ List\ of\ courses\ successfully\ loaded\ from\ file\r\n
+comment3.params=data
+comment3.target=void\ parseAndLoadLine(java.lang.String)
+comment3.text=\r\n\ Parse\ a\ single\ line\ of\ CSV\ in\ the\ form\:\r\n\ studentId,\ Course\ 1,\ course\ 2,\ course\ 3,\ course\ 4,\ course\ 5,\ course\ 6,\ course\ 7\r\n\ 999248624,CMPU-145-51,CMPU-145-52,EDUC-361-51,ECON-235-51,PHED-105-51,ECON-235-51,COGS-311-51\r\n\ \r\n\ Method\ should\ \r\n\ 1)\ extract\ the\ studentId\ and\ find\ the\ associated\ Student\ in\ mapStudents.\r\n\ 2)\ extract\ the\ courseKey\ and\ find\ the\ associated\ Course\ in\ mapCourses\r\n\ 3)\ add\ the\ course\ to\ the\ student\ requests.\r\n\ \r\n\ @param\ data\:\ a\ single\ line\ from\ the\ csv\ file.\r\n\ parse\r\n
+comment4.params=
+comment4.target=java.util.List\ mapStudentRequests()
+comment4.text=\r\n\ Method\ takes\ finished\ hashmap\ of\ students\ with\ all\ of\ their\ requests\ and\ turns\r\n\ it\ back\ into\ a\ List,\ sorts\ it,\ and\ returns\ it.\r\n\ \r\n\ @return\ students\:\ list\ of\ all\ students\ and\ their\ requests\ sorted\ by\ drawNumber\ and\ Class\r\n\ (as\ specified\ in\ the\ Student\ compareTo\ method\ task).\r\n
+numComments=5

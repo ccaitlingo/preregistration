@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Registrar
+comment0.text=\r\n\ The\ registrar\ loads\ students,\ courses,\ and\ the\ student's\ requests.\r\n\ Sets\ up\ the\ enrollment\ number\ for\ each\ course\ (begins\ at\ 0),\ runs\ the\r\n\ algorithm,\ and\ prints\ the\ results.\r\n
+comment1.params=
+comment1.target=Registrar()
+comment1.text=\r\n\ Constructor\ loads\ all\ files,\ and\ runs\ the\ algorithm\ for\ preregistration\ and\ \r\n\ prints\ the\ results.\r\n
+numComments=2

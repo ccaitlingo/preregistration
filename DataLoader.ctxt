@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DataLoader
+comment0.text=\r\n\ DataLoader\ reads\ a\ file\ and\ calls\ RequestLoader\ to\ parse\ the\ lines\ of\r\n\ the\ file\ and\ load\ each\ student\ and\ their\ requests.\r\n
+comment1.params=fileName
+comment1.target=void\ load(java.lang.String)
+comment1.text=\r\n\ Utility\ method\ that\ reads\ a\ file\ from\ disk.\r\n\ @param\ filename\:\ string;\r\n
+comment2.params=data
+comment2.target=void\ parseAndLoadLine(java.lang.String)
+comment2.text=\r\n\ Abstract\ method\ to\ be\ implemented\ by\ child\ class\ to\ parse\ \r\n\ each\ line\ of\ a\ csv\ file\ and\ create\ an\ object\ of\ the\ appropriate\ type.\r\n\ \r\n\ @param\ line\:\ String\ each\ line\ of\ the\ file.\r\n
+numComments=3

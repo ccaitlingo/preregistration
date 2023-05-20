@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Course
+comment0.text=\r\n\ Courses\ have\ various\ info\ associated\ with\ them\ such\ as\ a\ department,\r\n\ number,\ section\ number,\ time,\ etc.\ Using\ these\ fields\ they\ can\ be\r\n\ compared\ and\ sorted.\r\n
+comment1.params=dept\ courseNum\ section\ title\ credits\ maxEnrollment\ daysOfTheWeek\ startTime\ endTime\ duration\ timeString\ loc\ instructor
+comment1.target=Course(java.lang.String,\ int,\ int,\ java.lang.String,\ double,\ int,\ java.lang.String,\ int,\ int,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ takes\ in\ all\ values\ from\ the\ CSV.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getKey()
+comment2.text=\r\n\ Key\ is\ a\ string\ representation\ of\ department-courseNumber-section.\r\n\ Example\:\ CMPU-102-51\r\n
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\r\n\ Returns\ true\ if\ key\ is\ the\ same.\ \ (Department,\ Course\ Number,\ and\ Section).\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ String\ representation\ as\ it\ might\ appear\ on\ askBanner.\r\n
+comment5.params=o
+comment5.target=int\ compareTo(java.lang.Object)
+comment5.text=\r\n\ Should\ sort\ classes\ by\ department,\ then\ course\ number,\ then\ section.\ (just\ like\r\n\ askBanner)\r\n
+comment6.params=maybe
+comment6.target=boolean\ conflictsWith(Course)
+comment6.text=\r\n\ a\ method\ that\ checks\ times\ and\ days\ to\ determine\ whether\ or\ not\ they\ overlap.\r\n
+comment7.params=maybe
+comment7.target=boolean\ dayOverlap(Course)
+comment7.text=\r\n\ helper\ method\ for\ conflictsWith\ that\ checks\ for\ day\ overlap\r\n
+numComments=8

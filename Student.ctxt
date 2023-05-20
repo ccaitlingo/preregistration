@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Students\ have\ name,\ idNum,\ gradYear,\ along\ with\ a\ drawNumber\ that\ is\r\n\ assigned\ to\ them\ to\ register\ them\ for\ classes.\ They\ also\ have\ a\ list\ \r\n\ of\ requests\ and\ a\ list\ representing\ their\ final\ schedule.\r\n
+comment1.params=name\ idNum\ gradYear\ drawNumber
+comment1.target=Student(java.lang.String,\ int,\ int,\ int)
+comment1.text=\r\n\ @param\ name\:\ string\ the\ student's\ first\ and\ last\ name;\r\n\ @param\ idNum\:\ int\ the\ student's\ 999\ number.\r\n\ @param\ gradYear\:\ 4\ digit\ graduation\ year.\r\n\ @param\ drawNumber\:\ the\ draw\ number\ determines\ the\ student's\ place\ in\ the\ algorithm.\r\n
+comment2.params=o
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\r\n\ Returns\ true\ if\ idNumbers\ are\ the\ same;\r\n\ @param\ Object\:\ any\ possible\ object.\ \ \r\n\ \r\n\ @return\ boolean\:\ true\ if\ idNumbers\ are\ the\ same.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ ToString\ returns\ a\ string\ representation\ including\ \r\n\ name,\ graduation\ year\ and\ draw\ number.\r\n
+comment4.params=s
+comment4.target=int\ compareTo(java.lang.Object)
+comment4.text=\r\n\ Write\ a\ compareTo\ that\ sorts\ the\ student\ by\ draw\ number\ and\r\n\ class\ year.\ \ \r\n\ The\ first\ person\ should\ be\ a\ 4th\ year\ with\ draw\ number\ 1.\r\n\ The\ last\ person\ should\ be\ a\ 1st\ year\ with\ a\ the\ largest\ draw\ number.\r\n\ All\ 4th\ years\ come\ before\ all\ 3rd\ years,\ etc.\r\n\ \r\n\ @return\ retval\:\ \r\n\ \ \ \ 1\ if\ the\ first\ thing\ comes\ first,\ \r\n\ \ \ \ 0\ if\ they\ are\ equal\r\n\ \ \ \ -1\ if\ the\ second\ thing\ comes\ firt.\r\n
+comment5.params=maybe
+comment5.target=boolean\ isRegisteredFor(Course)
+comment5.text=\r\n\ Check\ to\ see\ if\ the\ student\ is\ registered\ for\ any\ section\ of\ a\ course.\r\n\ @param\ maybe\:\ Course.\ \ The\ potential\ course\ to\ register\ for.\r\n\ \r\n\ @return\ boolean\:\ true\ if\ the\ student\ is\ registered\ for\ any\ section\ of\ the\ course.\r\n
+comment6.params=
+comment6.target=double\ totalRegisteredCredits()
+comment6.text=\r\n\ @return\ the\ total\ registered\ credits\ (limit\ is\ 4.5)\r\n
+comment7.params=maybe
+comment7.target=boolean\ hasAConflict(Course)
+comment7.text=\r\n\ @param\ maybe\:\ Course\ the\ potential\ course\r\n\ \r\n\ @return\ true\ if\ the\ student\ already\ has\ something\ at\ that\ time.\r\n
+numComments=8
